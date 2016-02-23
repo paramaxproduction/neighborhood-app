@@ -1,45 +1,47 @@
-* {box-sizing:border-box;}
-body {background-color: #CCC;}
-
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #CCC;
+  font-family: 'Roboto Slab', serif;
+}
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+}
 .bgimg {
-    position:fixed;
-    top: 0;
-    left: 0;
-    width:100%;
-    z-index:-1;
-    opacity:1;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
 }
-
 .greeting {
-    color:black;
-    text-shadow: 1px 1px 3px rgba(255,255,255, .5);
-    text-align: center;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, .5);
 }
-
 .wikipedia-container {
-    float:right;
-    width:290px;
-    padding:10px;
-    margin-right: 10px;
-    background-color: rgba(255,255,255,0.7);
+  float: right;
+  width: 290px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
-
 .nytimes-container {
-    padding: 10px;
-    margin-right:300px;
-    background-color: rgba(255,255,255,0.7);
+  margin-right: 300px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
-
 .article-list {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 .article {
-    list-style-type: none;
-    padding:10px;
-    border-top: 1px solid #CCC;
+  padding: 10px;
+  list-style-type: none;
+  border-top: 1px solid #CCC;
 }
 .article:first-child {
-    border-top:none;
+  border-top: none;
 }
